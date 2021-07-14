@@ -1,0 +1,12 @@
+
+int length(Node *head)
+{
+    int count=0;
+    Node *temp=head;
+    while(temp != 0)
+    {
+        count++;
+        temp=temp->next;//this is for traversing in the code
+    }
+    return count;
+}
